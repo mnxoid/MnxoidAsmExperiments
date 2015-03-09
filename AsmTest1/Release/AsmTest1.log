@@ -1,0 +1,21 @@
+﻿Build started 3/8/2015 2:49:14 PM.
+     1>Project "C:\Users\Mnxoid\documents\visual studio 2013\Projects\MnxoidAsmExperiments\AsmTest1\AsmTest1.vcxproj" on node 2 (Build target(s)).
+     1>_MASM:
+         Assembling Source1.asm...
+         cmd.exe /C "C:\Users\Mnxoid\AppData\Local\Temp\tmpf6b10e0e4270424a8ccb8ae476bf7bbb.cmd"
+         ml.exe /c /nologo /Zi /Fo"Release\Source1.obj" /W3 /errorReport:prompt  /TaSource1.asm
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mnxoid\documents\visual studio 2013\Projects\MnxoidAsmExperiments\Release\AsmTest1.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Mnxoid\documents\visual studio 2013\Projects\MnxoidAsmExperiments\Release\AsmTest1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mnxoid\documents\visual studio 2013\Projects\MnxoidAsmExperiments\Release\AsmTest1.lib" /MACHINE:X86 /SAFESEH Release\Source.obj
+         Release\Source1.obj
+         Generating code
+         Finished generating code
+     1>Source1.obj : error LNK2026: module unsafe for SAFESEH image.
+     1>C:\Users\Mnxoid\documents\visual studio 2013\Projects\MnxoidAsmExperiments\Release\AsmTest1.exe : fatal error LNK1281: Unable to generate SAFESEH image.
+     1>Done Building Project "C:\Users\Mnxoid\documents\visual studio 2013\Projects\MnxoidAsmExperiments\AsmTest1\AsmTest1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.00
